@@ -19,11 +19,11 @@ public class Interview {
         if(value1+value2==value3)
             result="+";
         if(value1-value2==value3)
-            result=result+"-";
+            result+="-";
         if(value1*value2==value3)
-            result=result+"*";
+            result+="*";
         if(value1/value2==value3)
-            result=result+"/";
+            result+="/";
         
         
         System.out.println("kind operation result:"+result);  // Output user input
